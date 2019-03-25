@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import {
   Button,
   Card,
@@ -67,7 +67,7 @@ class Login extends Component {
                     </Form>
                   </CardBody>
                 </Card>
-                <Card
+                {/* <Card
                   className="text-white bg-primary py-5 d-md-down-none"
                   style={{ width: '44%' }}
                 >
@@ -91,7 +91,7 @@ class Login extends Component {
                       </Link>
                     </div>
                   </CardBody>
-                </Card>
+                </Card> */}
               </CardGroup>
             </Col>
           </Row>
